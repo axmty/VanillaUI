@@ -1,5 +1,2 @@
 import Tooltip from './ui/tooltip';
-
-const tooltip = new Tooltip(document.querySelector('.tooltip'));
-
-tooltip.init();
+import Dropdown from './ui/dropdown';

@@ -5,6 +5,7 @@ class Tooltip {
     this.element = element;
     this.message = element.dataset.message;
   }
+
   init() {
     const tip = document.createElement('div');
     tip.classList.add('tip');
